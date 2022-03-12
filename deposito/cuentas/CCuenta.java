@@ -1,4 +1,17 @@
 package cuentas;
+
+/**
+ * Estamos añadiendo estos comentarios para la tarea de la UT 05
+ * 
+ * 
+ * @author velilla
+ * @version 1.0
+ * @since 12/03/2022
+ *
+ *
+ */
+
+
 public class CCuenta {
 
 
@@ -17,6 +30,11 @@ public class CCuenta {
         setCuenta(cue);
         setSaldo(sal);
     }
+    
+    /**
+     * Devuelve el saldo a través de getSaldo()
+     * @return saldo de la cuenta
+     */
 
     public double estado()
     {
